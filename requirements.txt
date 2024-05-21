@@ -1,1 +1,2 @@
--r requirements.txt
+instabot==0.1.0
+instaloader==4.8.1
