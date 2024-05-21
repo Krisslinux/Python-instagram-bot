@@ -17,11 +17,11 @@ bot = Bot()
 bot.login(username=os.getenv('INSTAGRAM_USERNAME'), password=os.getenv('INSTAGRAM_PASSWORD'))
 
 # Define the username to fetch Reels from
-source_username = "source_username"
+source_username = "tyrone"
 
 # Download the latest Reel
 media_path = download_latest_reel(source_username)
 
 # Post the media to your account
 if media_path:
-    bot.upload_video(media_path, caption="Reposting the latest reel!")
+    bot.upload_video(media_path, caption="Reposting the latest reel! please like and follow")
