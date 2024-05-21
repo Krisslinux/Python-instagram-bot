@@ -1,1 +1,1 @@
-pip2 install -r requirements.txt
+requirements.txt
