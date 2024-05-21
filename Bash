@@ -1,2 +1,0 @@
-mkdir instagram-repost-bot
-cd instagram-repost-bot
